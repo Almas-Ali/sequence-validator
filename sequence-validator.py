@@ -12,7 +12,7 @@ num = 998001
 # get the full length output of the division to validate the result infinty
 decimal.getcontext().prec = 3000-8 # 3000-8 to get the full length of the division
 output = decimal.Decimal(base) / decimal.Decimal(num)
-# print(output)
+print(output) # printing raw decimals
 
 # split the number by 3 digits and add a comma to separate them
 output = str(output).split('.')[1] # remove the decimal point
@@ -31,8 +31,8 @@ assert len(output) == 999, 'The length of the output is not 999'
 # print(output)
 
 # write the output in a file
-with open('output.txt', 'w') as file:
-    # file.write(str(output))
-    for i in range(1000):
-        file.write(str(i) + ' -> ' + output[i] + '\n')
+# with open('output.txt', 'w') as file:
+#     # file.write(str(output))
+#     for i in range(1000):
+#         file.write(str(i) + ' -> ' + output[i] + '\n')
 
