@@ -21,7 +21,7 @@ python sequence-validator.py
 
 ## Output
 
-The output of the script is stored in the file for testing purposes. It is in `output.txt`. Your free to mess with it.
+The output of the script is stored in the file for testing purposes. It is in `output-decimals.txt` which is raw decimal values and `output-testing.txt` which is processed value for sequence count. Your free to mess with it.
 
 ## Conclusion
 
